@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Todo List</h1>
+        <form action="#">
+          <input
+            type="text"
+            placeholder="Title..."
+            id="todoInput"
+            name="todoInput"
+            required
+          />
+          <button type="submit" id="submitBtn">Add</button>
+        </form>
+      </header>
+      <ul class="todoBox" id="todoBox">
+        <!-- <li class="todo">
+            <div class="content">
+                <div class="iconBox">
+                    <i class="fa-solid fa-check check"></i>
+                </div>
+                <p onclick="checkTodo()">Hi im go to gym</p>
+            </div>
+            <i class="fa-solid fa-xmark closeBtn" id="closeBtn"></i>
+        </li>
+        <li class="todo active">
+            <div class="content">
+                <div class="iconBox">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <p>today what are you coding asdkf akdfjds asdkjfkdsla askdfjsd sadf asdf </p>
+            </div>
+            <i class="fa-solid fa-xmark closeBtn" id="closeBtn"></i>
+        </li> -->
+      </ul>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
